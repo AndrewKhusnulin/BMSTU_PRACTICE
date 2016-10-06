@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stdio.h>
 using namespace std;
-//Программа для определения месяца
+//Программа для определения месяца с помощью switch
 int main() {
     int x; //Декларация переменной
     cout << "Введите номер месяца:";
