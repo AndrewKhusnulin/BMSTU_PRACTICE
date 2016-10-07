@@ -1,15 +1,14 @@
 #include <iostream>
 #include <stdio.h>
 using namespace std;
-//Определения месяца с помощью switch
 int main() {
-    int x; //Декларация переменной
+    int x;
     cout << "Введите номер месяца:";
-    cin >> x; //Вводим переменную
-    switch (x) { //Вводим переключатель для мультиветвления фрагмента
+    cin >> x;
+    switch (x) {
         case 1:
             cout << "Январь";
-            break; //Выход из переключателя
+            break;
         case 2:
             cout << "Февраль";
             break;
@@ -41,9 +40,9 @@ int main() {
             cout << "Ноябрь";
             break;
         case 12:
-            cout << "Декабрь";
+            cout << "Декабрь" << endl;
             break;
-        default: //Условие,если ни одна метка не сработала
+        default:
             cout << "Такого месяца нет";
     }
     return 0;
