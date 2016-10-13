@@ -13,5 +13,5 @@ int main()
         cout << "Полученное значение y:" << endl;
         cout << y << endl;
     }
- Return 0;
+ return 0;
 }
