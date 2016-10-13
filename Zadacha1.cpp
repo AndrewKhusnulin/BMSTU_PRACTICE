@@ -1,4 +1,4 @@
- #include <iostream>
+#include <iostream>
 #include <math.h>
 using namespace std;
 int main()
@@ -13,4 +13,5 @@ int main()
         cout << "Полученное значение y:" << endl;
         cout << y << endl;
     }
+ Return 0;
 }
